@@ -130,15 +130,3 @@
     </build>
 
     <!-- ✅ Nexus Deployment -->
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <url>http://65.0.93.229:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <url>http://65.0.93.229:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
-</project>
