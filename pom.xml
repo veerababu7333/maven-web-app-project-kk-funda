@@ -15,7 +15,11 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>5.3.36</spring.version>
+        <spring.version>5.3.36</spring.version><properties>
+    <sonar.host.url>http://43.205.118.206:9000</sonar.host.url>
+</properties>
+
+             
     </properties>
 
     <dependencies>
