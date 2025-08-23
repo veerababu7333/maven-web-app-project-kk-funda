@@ -20,7 +20,7 @@
 
         <!-- ✅ SonarQube Config -->
         <sonar.host.url>http://43.205.118.206:9000</sonar.host.url>
-        <sonar.login>your_sonar_token</sonar.login>
+        <sonar.login>squ_bcdc3be03c21679f56d29702078829262b2d6ef2</sonar.login>
     </properties>
 
     <dependencies>
