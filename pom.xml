@@ -121,7 +121,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <url>http://<TOMCAT_SERVER_IP>:8080/manager/text</url>
+                    <url>http://http://65.2.167.121:8080/host-manager/html</url>
                     <server>tomcat</server>
                     <path>/maven-web-application-kkfunda</path>
                 </configuration>
@@ -133,11 +133,11 @@
     <distributionManagement>
         <repository>
             <id>nexus</id>
-            <url>http://<NEXUS_SERVER_IP>:8081/repository/maven-releases/</url>
+            <url>http://65.0.93.229:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
-            <url>http://<NEXUS_SERVER_IP>:8081/repository/maven-snapshots/</url>
+            <url>http://65.0.93.229:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
